@@ -3,15 +3,19 @@ var firstReverse = function(str) {
 }
 console.log(firstReverse('string'));
 
-var swapCase = function() {
-
+var swapCase = function(str) {
+	var newString = str.split();
+	for(var i=0;i<newString.length;i++){
+		if(newString[i].toLowerCase === newString[i]) {
+			newString.push[i].toLowerCase;
+		}
+	}
 }
-console.log(firstReverse())
+console.log(firstReverse("Hello World"));
 
 var letterCount = function() {
 	
-
-
+}
 // #2
 // Write a function swapCase that takes a single string parameter and swaps the case of each character. 
 // For example: if a string is "Hello World" the output should be "hELLO wORLD". Let numbers and symbols stay the way they are.
