@@ -1,25 +1,23 @@
-// var firstReverse = function(str) {
-// 	return str.split('').reverse().join('');
-// }
-// console.log(firstReverse('string'));
+var firstReverse = function(str) {
+	return str.split('').reverse().join('');
+}
 
-// var swapCase = function(str) {
-// 	var newString = str.split('');
-// 	var newArray = [];ls
-// 	for(var i=0;i<newString.length;i++){
-// 		// if the array value.toLowerCase  is ALREADY lowercase (ie. if when I change it to lowercase, it's the same as original)
-// 		// put that value after transforming it to uppercase 
-// 		if(newString[i].toLowerCase() === newString[i]) {
-// 			// find the ith character, convert that character to uppercase, then push the value into the array
-// 			newArray.push( newString[i].toUpperCase() );
-// 		}
-// 		else {
-// 			newArray.push( newString[i].toLowerCase() );
-// 		}
-// 	}
-// 	return newArray.join('');
-// }
-// console.log(swapCase("Hello World"));
+var swapCase = function(str) {
+	var newString = str.split('');
+	var newArray = [];
+	for(var i=0;i<newString.length;i++){
+		// if the array value.toLowerCase  is ALREADY lowercase (ie. if when I change it to lowercase, it's the same as original)
+		// put that value after transforming it to uppercase 
+		if(newString[i].toLowerCase() === newString[i]) {
+			// find the ith character, convert that character to uppercase, then push the value into the array
+			newArray.push( newString[i].toUpperCase() );
+		}
+		else {
+			newArray.push( newString[i].toLowerCase() );
+		}
+	}
+	return newArray.join('');
+}
 
 var swapCase = function(str) {
 	// var newString = str.split('');
@@ -37,8 +35,6 @@ var swapCase = function(str) {
 	}
 	return newArray.join('');
 }
-console.log(swapCase("Hello World"));
-
 
 var letterCount = function() {
 	
